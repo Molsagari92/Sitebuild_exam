@@ -1,0 +1,46 @@
+.grid {
+  display: grid;
+  grid-template-columns: 10px 10px 10px 10px 10px;
+  grid-template-rows: 20px 20px 20px 20px 20px;
+
+  border: 2px dotted black;
+}
+
+.head {
+  color: blue;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.flex {
+  width: 500px;
+  height: 500px;
+  display: flex;
+}
+
+.img1 {
+  justify-self: flex-start;
+}
+.img2 {
+  justify-self: flex-end;
+}
+
+.img3 {
+  justify-self: center;
+  align-self: center;
+}
+
+.img4 {
+  align-self: flex-end;
+  justify-self: flex-start;
+}
+
+.img5 {
+  align-self: flex-start;
+  justify-self: flex-end;
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}
